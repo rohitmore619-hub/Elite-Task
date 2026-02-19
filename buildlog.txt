@@ -1,0 +1,1348 @@
+[1A[1B[0G[?25l
+[?25h[1A[0G[?25l[+] Building 0.0s (0/1)                                    docker:desktop-linux
+[?25h[1A[0G[?25l[+] Building 0.2s (1/3)                                    docker:desktop-linux
+[36m => [internal] load build definition from Dockerfile                       0.0s
+[0m[36m => => transferring dockerfile: 772B                                       0.0s
+[0m => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:2.1          0.2s
+ => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:2.1       0.2s
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.2s (2/3)                                    docker:desktop-linux
+[36m => [internal] load build definition from Dockerfile                       0.0s
+[0m[36m => => transferring dockerfile: 772B                                       0.0s
+[0m[36m => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:2.1          0.2s
+[0m => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:2.1       0.2s
+[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.3s (6/13)                                   docker:desktop-linux
+[36m => [internal] load .dockerignore                                          0.0s
+[0m[36m => => transferring context: 2B                                            0.0s
+[0m[36m => [build 1/5] FROM mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1b  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m => [internal] load build context                                          0.0s
+[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.5s (8/13)                                   docker:desktop-linux
+[36m => [build 1/5] FROM mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1b  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m => [build 3/5] COPY . .                                                   0.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.6s (8/13)                                   docker:desktop-linux
+[36m => [build 1/5] FROM mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1b  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m => [build 3/5] COPY . .                                                   0.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.7s (9/13)                                   docker:desktop-linux
+[36m => [build 1/5] FROM mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1b  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.9s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  0.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.0s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  0.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.2s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  0.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.3s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  0.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.5s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  0.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.6s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  0.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.8s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  1.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 1.9s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  1.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.1s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  1.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.2s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  1.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.4s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  1.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.5s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  1.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.7s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  1.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 2.8s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  2.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.0s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  2.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.1s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  2.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.3s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  2.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.4s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  2.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.6s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  2.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.7s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  3.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 3.9s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  3.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.0s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  3.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.2s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  3.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.3s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  3.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.5s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  3.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.6s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  3.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.8s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  4.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 4.9s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  4.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 5.1s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  4.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 5.2s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  4.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 5.4s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  4.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 5.5s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  4.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 5.7s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  5.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 5.8s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  5.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 6.0s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  5.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 6.1s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  5.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 6.3s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  5.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 6.4s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  5.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 6.6s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  5.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 6.7s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  6.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 6.9s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  6.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 7.0s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  6.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 7.2s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  6.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 7.3s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  6.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 7.5s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  6.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 7.6s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  6.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 7.8s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  7.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 7.9s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  7.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 8.1s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  7.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 8.2s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  7.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 8.4s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  7.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 8.5s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  7.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 8.7s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  7.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 8.8s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  8.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 9.0s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  8.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 9.1s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  8.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 9.3s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  8.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 9.4s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  8.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 9.6s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  8.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 9.7s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  9.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 9.9s (9/13)                                   docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  9.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 10.0s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  9.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 10.2s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  9.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 10.3s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  9.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 10.5s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  9.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 10.6s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mic  9.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 10.8s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  10.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 10.9s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  10.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 11.1s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  10.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 11.2s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  10.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 11.4s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  10.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 11.5s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  10.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 11.7s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  10.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 11.8s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  11.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 12.0s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  11.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 12.1s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  11.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 12.1s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  11.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 12.3s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  11.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 12.5s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  11.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 12.6s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  11.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 12.8s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  12.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 12.9s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  12.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 13.1s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  12.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 13.2s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  12.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 13.4s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  12.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 13.5s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  12.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 13.6s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  12.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 13.8s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 13.9s (9/13)                                  docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 14.0s (10/13)                                 docker:desktop-linux
+[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 14.2s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  0.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 14.3s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  0.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 14.5s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  0.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 14.6s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  0.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 14.7s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  0.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 14.9s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  0.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 15.0s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  1.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 15.2s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  1.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 15.3s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  1.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 15.5s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  1.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 15.6s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  1.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 15.8s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  1.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 15.9s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  1.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 16.1s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  2.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 16.2s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  2.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 16.4s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  2.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 16.5s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  2.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 16.7s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  2.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 16.8s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  2.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 17.0s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  2.9s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 17.1s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  3.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 17.3s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  3.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 17.4s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  3.4s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 17.6s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  3.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 17.7s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  3.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 17.9s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  3.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 18.0s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  4.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 18.2s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  4.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 18.3s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  4.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 18.3s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  4.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 18.5s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  4.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 18.6s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  4.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 18.7s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  4.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 18.9s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  4.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 19.0s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  5.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 19.1s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  5.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 19.3s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  5.2s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 19.4s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  5.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 19.5s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  5.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 19.7s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  5.6s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 19.8s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  5.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 19.9s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  5.8s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 20.0s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  6.0s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 20.1s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  6.1s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 20.4s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  6.3s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 20.5s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  6.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 20.6s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  6.5s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 20.7s (10/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m => [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Mic  6.7s
+[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 20.8s (11/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m[31m => ERROR [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Ta  6.8s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 20.9s (11/13)                                 docker:desktop-linux
+[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m[31m => ERROR [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Ta  6.8s
+[0m[?25h[1A[1A[1A[1A[1A[1A[1A[1A[1A[0G[?25l[+] Building 21.0s (11/13)                                 docker:desktop-linux
+[36m => [internal] load build definition from Dockerfile                       0.0s
+[0m[36m => => transferring dockerfile: 772B                                       0.0s
+[0m[36m => [internal] load metadata for mcr.microsoft.com/dotnet/sdk:2.1          0.2s
+[0m[36m => [internal] load metadata for mcr.microsoft.com/dotnet/aspnet:2.1       0.2s
+[0m[36m => [internal] load .dockerignore                                          0.0s
+[0m[36m => => transferring context: 2B                                            0.0s
+[0m[36m => [build 1/5] FROM mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1b  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/sdk:2.1@sha256:4db9513d5b1bcf4b88  0.0s
+[0m[36m => [internal] load build context                                          0.1s
+[0m[36m => => transferring context: 36.16kB                                       0.0s
+[0m[36m => [stage-1 1/3] FROM mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf  0.0s
+[0m[36m => => resolve mcr.microsoft.com/dotnet/aspnet:2.1@sha256:727fedf33b851f5  0.0s
+[0m[36m => CACHED [build 2/5] WORKDIR /src                                        0.0s
+[0m[36m => [build 3/5] COPY . .                                                   0.4s
+[0m[36m => [build 4/5] RUN dotnet restore Elite.Task.Microservice/Elite.Task.Mi  13.3s
+[0m[31m => ERROR [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Ta  6.8s
+[0m[?25h------
+ > [build 5/5] RUN dotnet publish Elite.Task.Microservice/Elite.Task.Microservice.csproj     -c Release     -o /app/publish     --no-restore:
+0.672 Microsoft (R) Build Engine version 16.2.37902+b5aaefc9f for .NET Core
+0.672 Copyright (C) Microsoft Corporation. All rights reserved.
+0.672 
+4.286 ConvertHtmlToPDF.cs(169,30): warning CS0168: The variable 'ex' is declared but never used [/src/Elite.ListToPDF/Elite.ListToPDF.csproj]
+4.286 ConvertHtmlToPDF.cs(178,19): warning CS0219: The variable 'emSize' is assigned but its value is never used [/src/Elite.ListToPDF/Elite.ListToPDF.csproj]
+4.291 ConvertHtmlToPDF.cs(237,19): warning CS0219: The variable 'emSize' is assigned but its value is never used [/src/Elite.ListToPDF/Elite.ListToPDF.csproj]
+4.292   Elite.AntiVirus.Lib -> /src/Elite.AntiVirus.Services/bin/Release/netcoreapp2.0/Elite.AntiVirus.Lib.dll
+4.316   Elite.EventStore -> /src/Elite.EventStore/bin/Release/netcoreapp2.0/Elite.EventStore.dll
+4.518   Elite.ListToPDF -> /src/Elite.ListToPDF/bin/Release/netcoreapp2.0/Elite.ListToPDF.dll
+5.083 UserRolesAndPermissions/RolesAndRights.cs(9,7): warning CS0105: The using directive for 'System.Linq' appeared previously in this namespace [/src/Elite.Commons/Elite.Common.Utilities/Elite.Common.Utilities.csproj]
+5.083 JiraEntities/FieldsWithMoreInfo.cs(9,37): warning CS0108: 'FieldsWithMoreInfo.attachment' hides inherited member 'Fields.attachment'. Use the new keyword if hiding was intended. [/src/Elite.Commons/Elite.Common.Utilities/Elite.Common.Utilities.csproj]
+5.083 Encription/AesCryption.cs(125,29): warning CS0168: The variable 'ex' is declared but never used [/src/Elite.Commons/Elite.Common.Utilities/Elite.Common.Utilities.csproj]
+5.083 FileUpload/MultiPartFormDataRequestAVHelper.cs(136,46): warning CS0168: The variable 'ex' is declared but never used [/src/Elite.Commons/Elite.Common.Utilities/Elite.Common.Utilities.csproj]
+5.083 ListDownload/ExcelDownload.cs(17,41): warning CS1998: This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread. [/src/Elite.Commons/Elite.Common.Utilities/Elite.Common.Utilities.csproj]
+5.341   Elite.Common.Utilities -> /src/Elite.Commons/Elite.Common.Utilities/bin/Release/netcoreapp2.0/Elite.Common.Utilities.dll
+5.843 Repository/AuthTokenRepository.cs(72,30): warning CS0168: The variable 'ex' is declared but never used [/src/Elite.Auth.Token.Lib/Elite.Auth.Token.Lib.csproj]
+6.104   Elite.Logging -> /src/Elite.Logging/Elite.Logging/bin/Release/netcoreapp2.0/Elite.Logging.dll
+6.130   Elite.Filters.Lib -> /src/Elite.Filters.Lib/bin/Release/netcoreapp2.0/Elite.Filters.Lib.dll
+6.183   Elite.Auth.Token.Lib -> /src/Elite.Auth.Token.Lib/bin/Release/netcoreapp2.0/Elite.Auth.Token.Lib.dll
+6.532 Application/CQRS/Queries/TaskQueries.cs(247,56): error CS0111: Type 'TaskQueries' already defines a member called 'GetTaskForDashboard' with the same parameter types [/src/Elite.Task.Microservice/Elite.Task.Microservice.csproj]
+------
