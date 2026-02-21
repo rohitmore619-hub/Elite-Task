@@ -24,5 +24,15 @@ jobs:
       - name: Build
         run: dotnet build Elite.Task.Microservice/Elite.Task.Microservice.csproj --configuration Release --no-restore
 
+            - name: Login to ACR
+        run: |
+          echo "${{ secrets.ACR_PASSWORD }}" | docker login ${{ secrets.ACR_LOGIN_SERVER }} \
+          -u ${{ secrets.ACR_USERNAME }} --password-stdin
+
       - name: Build Docker Image
-        run: docker build -t elite-task:latest -f Dockerfile .
+        run: |
+          docker build -t ${{ secrets.ACR_LOGIN_SERVER }}/elite-task:${{ github.sha }} -f Dockerfile .
+
+      - name: Push Docker Image
+        run: |
+          docker push ${{ secrets.ACR_LOGIN_SERVER }}/elite-task:${{ github.sha }}
